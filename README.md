@@ -7,3 +7,6 @@ A repository of useful extension methods in C# with annotations to promote code 
 - [Char](https://github.com/sfvicente/ExtensionMethods/blob/master/Docs/System/CharExtensions.md)
 - [String](https://github.com/sfvicente/ExtensionMethods/blob/master/Docs/System/StringExtensions.md)
 
+**Namespace: System.Collection.Generic**
+- [List](https://github.com/sfvicente/ExtensionMethods/blob/master/Docs/System.Collection.Generic/ListExtensions.md)
+
