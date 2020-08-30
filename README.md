@@ -6,6 +6,7 @@ A repository of useful extension methods in C# with annotations to promote code 
 **Namespace: System**
 - [Char](https://github.com/sfvicente/ExtensionMethods/blob/master/System/CharExtensions.md)
 - [DateTime](https://github.com/sfvicente/ExtensionMethods/blob/master/System/DateTimeExtensions.md)
+- [long](https://github.com/sfvicente/ExtensionMethods/blob/master/System/LongExtensions.md)
 - [String](https://github.com/sfvicente/ExtensionMethods/blob/master/System/StringExtensions.md)
 
 **Namespace: System.Collection.Generic**
