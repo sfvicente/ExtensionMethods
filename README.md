@@ -10,5 +10,6 @@ A repository of useful extension methods in C# with annotations to promote code 
 - [String](https://github.com/sfvicente/ExtensionMethods/blob/master/System/StringExtensions.md)
 
 **Namespace: System.Collection.Generic**
+- [IEnumerable<T>](https://github.com/sfvicente/ExtensionMethods/blob/master/System.Collection.Generic/IEnumerableExtensions.md)
 - [List](https://github.com/sfvicente/ExtensionMethods/blob/master/System.Collection.Generic/ListExtensions.md)
 
