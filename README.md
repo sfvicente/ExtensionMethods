@@ -13,3 +13,5 @@ A repository of useful extension methods in C# with annotations to promote code 
 - [IEnumerable<T>](https://github.com/sfvicente/ExtensionMethods/blob/master/System.Collection.Generic/IEnumerableExtensions.md)
 - [List](https://github.com/sfvicente/ExtensionMethods/blob/master/System.Collection.Generic/ListExtensions.md)
 
+**Namespace: System.Web**
+- [HttpContext](https://github.com/sfvicente/ExtensionMethods/blob/master/System.Web/HttpContextExtensions.md)
