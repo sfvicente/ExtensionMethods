@@ -30,22 +30,4 @@ References:
 - https://stackoverflow.com/questions/271398/what-are-your-favorite-extension-methods-for-c-codeplex-com-extensionoverflow
 
 
-## SecondLast()
 
-Gets the second-last item of a collection.
-
-### Source
-
-```csharp
-
-public static T SecondLast<T>(this IEnumerable<T> source) => source.Reverse().Skip(1).Take(1).First();
-
-```
-
-### Example
-
-```csharp
-
-TODO: Code example
-
-```
