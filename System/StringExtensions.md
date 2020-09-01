@@ -69,3 +69,25 @@ Dependencies:
 
 References:
 - https://stackoverflow.com/questions/25259/how-does-stack-overflow-generate-its-seo-friendly-urls/
+
+
+##  EqualsIgnoreCase()
+
+Verifies if a string is identical to another string ignoring the casing.
+
+### Source
+
+```csharp
+
+public static bool EqualsIgnoreCase(this string source, string target) => return source.Equals(target, StringComparison.OrdinalIgnoreCase);
+
+```
+
+### Example
+
+```csharp
+
+TODO: Code example
+
+```
+
