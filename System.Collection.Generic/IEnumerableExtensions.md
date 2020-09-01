@@ -7,6 +7,27 @@ The `IEnumerable<T>` interface exposes an enumerator mechanism, which supports s
 <br>
 
 
+## IsEmpty()
+
+Determines if an a collection is empty.
+
+### Source
+
+```csharp
+
+public static bool IsEmpty<T>(this IEnumerable<T> source) => return !source.Any();
+
+```
+
+### Example
+
+```csharp
+
+TODO: Code example
+
+```
+
+
 ## SecondLast()
 
 Gets the second-last item of a collection.
