@@ -11,12 +11,22 @@ The `DateTime` type is a `Struct` that represents an instant in time, typically 
 
 Verifies if the date is between the interval of two dates.
 
+### Source
+
 ```csharp
+
 public static bool Between(this DateTime dt, DateTime start, DateTime end)
 {
     return dt.Ticks >= start.Ticks && dt.Ticks <= end.Ticks;
 }
+
 ```
 
+### Usage
+
+```csharp
+
 TODO: code samples
+
+```
 
