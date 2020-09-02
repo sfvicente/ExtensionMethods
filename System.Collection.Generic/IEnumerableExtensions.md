@@ -28,6 +28,27 @@ TODO: Code example
 ```
 
 
+## IsNullOrEmpty()
+
+Determines if a collection is null or empty.
+
+### Source
+
+```csharp
+
+ public static bool IsNullOrEmpty<TSource>(this IEnumerable<TSource> source) => return source == null || !source.Any();
+
+```
+
+### Example
+
+```csharp
+
+TODO: Code example
+
+```
+
+
 ## SecondLast()
 
 Gets the second-last item of a collection.
