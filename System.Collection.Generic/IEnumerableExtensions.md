@@ -1,7 +1,7 @@
 # Extensions | IEnumerable<T>
 
 Namespace: System.Collections.Generic
-Assembly: System.Collections.dll
+Assembly: System.Runtime.dll
 
 The `IEnumerable<T>` interface exposes an enumerator mechanism, which supports simple iteration over a collection of a specified type.
 <br>
