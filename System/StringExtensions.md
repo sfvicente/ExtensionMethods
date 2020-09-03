@@ -70,6 +70,14 @@ Dependencies:
 References:
 - https://stackoverflow.com/questions/25259/how-does-stack-overflow-generate-its-seo-friendly-urls/
 
+### Usage
+
+```csharp
+
+TODO: code samples
+
+```
+
 
 ##  EqualsIgnoreCase()
 
@@ -83,11 +91,11 @@ public static bool EqualsIgnoreCase(this string source, string target) => return
 
 ```
 
-### Example
+### Usage
 
 ```csharp
 
-TODO: Code example
+TODO: code samples
 
 ```
 

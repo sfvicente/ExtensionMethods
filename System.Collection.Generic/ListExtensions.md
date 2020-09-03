@@ -20,14 +20,14 @@ public static bool IsIn<T>(this T source, params T[] list)
 }
 ```
 
-TODO: Code example
-
-
-
-
-
 References:
 - https://stackoverflow.com/questions/271398/what-are-your-favorite-extension-methods-for-c-codeplex-com-extensionoverflow
 
+### Usage
 
+```csharp
+
+TODO: code samples
+
+```
 

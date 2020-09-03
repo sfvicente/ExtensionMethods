@@ -19,11 +19,11 @@ public static bool IsEmpty<T>(this IEnumerable<T> source) => return !source.Any(
 
 ```
 
-### Example
+### Usage
 
 ```csharp
 
-TODO: Code example
+TODO: code samples
 
 ```
 
@@ -40,11 +40,11 @@ Determines if a collection is null or empty.
 
 ```
 
-### Example
+### Usage
 
 ```csharp
 
-TODO: Code example
+TODO: code samples
 
 ```
 
@@ -61,10 +61,10 @@ public static T SecondLast<T>(this IEnumerable<T> source) => source.Reverse().Sk
 
 ```
 
-### Example
+### Usage
 
 ```csharp
 
-TODO: Code example
+TODO: code samples
 
 ```

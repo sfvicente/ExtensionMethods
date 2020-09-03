@@ -101,3 +101,12 @@ Although using `switch` is generally faster, the reason this code uses `if-else-
 that those letters occur in English. It hits the most common cases first, and almost never reaches the bottom.
 
 Reference: https://meta.stackexchange.com/questions/7435/non-us-ascii-characters-dropped-from-full-profile-url/7696#7696
+
+### Usage
+
+```csharp
+
+TODO: code samples
+
+```
+
