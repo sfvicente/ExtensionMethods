@@ -99,3 +99,34 @@ TODO: code samples
 
 ```
 
+
+## ToHtmlEncodedString()
+
+Converts the string to an HTML encoded string.
+
+### Source
+
+```csharp
+
+    public static string ToHtmlEncodedString(this string source)
+    {
+        if (String.IsNullOrEmpty(source))
+        {
+            return source;
+        }
+
+        return HttpUtility.HtmlEncode(source);
+    }
+
+```
+
+Dependencies:
+    `System.Web` for the `HttpUtility` class.
+
+### Usage
+
+```csharp
+
+TODO: code samples
+
+```
