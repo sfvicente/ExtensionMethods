@@ -59,3 +59,28 @@ TODO: code samples
 ```
 
 
+## IsWin7OrHigher()
+
+Determines if the operating system is Windows 7 or higher.
+
+## Source
+
+```csharp
+
+    public static bool IsWin7OrHigher(this OperatingSystem OS)
+    {
+      return OS.Platform == PlatformID.Win32NT && (OS.Version.Major > 6 || (OS.Version.Major == 6 && OS.Version.Minor >= 1));
+    }
+
+```
+
+References:
+- https://stackoverflow.com/questions/271398/what-are-your-favorite-extension-methods-for-c-codeplex-com-extensionoverflow?page=5
+
+### Usage
+
+```csharp
+
+TODO: code samples
+
+```
