@@ -8,6 +8,7 @@ A repository of useful extension methods in C# with annotations to promote code 
 - [Char](https://github.com/sfvicente/ExtensionMethods/blob/master/System/CharExtensions.md)
 - [DateTime](https://github.com/sfvicente/ExtensionMethods/blob/master/System/DateTimeExtensions.md)
 - [Environment](https://github.com/sfvicente/ExtensionMethods/blob/master/System/EnvironmentExtensions.md)
+- [Object](https://github.com/sfvicente/ExtensionMethods/blob/master/System/ObjectExtensions.md)
 - [long](https://github.com/sfvicente/ExtensionMethods/blob/master/System/LongExtensions.md)
 - [String](https://github.com/sfvicente/ExtensionMethods/blob/master/System/StringExtensions.md)
 
