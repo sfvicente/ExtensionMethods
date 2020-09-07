@@ -130,3 +130,42 @@ Dependencies:
 TODO: code samples
 
 ```
+
+
+## Compress()
+
+Performs compression of a `String` into a `ByteArray` using the GZip algorithm.
+
+### Source
+
+```csharp
+
+    public static byte[] Compress(this string source)
+    {
+        byte[] stringAsBytes = Encoding.Default.GetBytes(source);
+
+        using (var memoryStream = new MemoryStream())
+        {
+            using (var zipStream = new GZipStream(memoryStream, CompressionMode.Compress))
+            {
+                zipStream.Write(stringAsBytes, 0, stringAsBytes.Length);
+                zipStream.Close();
+
+                return (memoryStream.ToArray());
+            }
+        }
+    }
+
+```
+
+Dependencies:
+    `System.IO` for the `MemoryStream` class
+    `System.IO.Compression` for the `GZipStream` class.
+
+### Usage
+
+```csharp
+
+TODO: code samples
+
+```
