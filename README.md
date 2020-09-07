@@ -5,6 +5,7 @@ A repository of useful extension methods in C# with annotations to promote code 
 
 **Namespace: System**
 - [ArrayExtensions](https://github.com/sfvicente/ExtensionMethods/blob/master/System/ArrayExtensions.md)
+- [Byte](https://github.com/sfvicente/ExtensionMethods/blob/master/System/ByteExtensions.md)
 - [Char](https://github.com/sfvicente/ExtensionMethods/blob/master/System/CharExtensions.md)
 - [DateTime](https://github.com/sfvicente/ExtensionMethods/blob/master/System/DateTimeExtensions.md)
 - [Environment](https://github.com/sfvicente/ExtensionMethods/blob/master/System/EnvironmentExtensions.md)
