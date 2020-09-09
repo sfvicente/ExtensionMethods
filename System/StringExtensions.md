@@ -169,3 +169,36 @@ Dependencies:
 TODO: code samples
 
 ```
+
+
+## DecodeBase64()
+
+Decodes a base 64 string.
+
+### Source
+
+```csharp
+
+    public static string DecodeBase64(this string source)
+    {
+        return Encoding.ASCII.GetString(Convert.FromBase64String(source));
+    }
+
+```
+
+Dependencies:
+    `System.Text` for the `Encoding` class
+
+### Usage
+
+```csharp
+
+    public static void Main()
+    {
+    	string base64EncodedText = "SGVsbG8gV29ybGQh";
+        string base64DecodedText = base64EncodedText.DecodeBase64();
+	    
+        Console.WriteLine(decodeBase64);
+    }
+
+```
