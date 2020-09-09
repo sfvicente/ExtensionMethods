@@ -19,4 +19,5 @@ A repository of useful extension methods in C# with annotations to promote code 
 - [List](https://github.com/sfvicente/ExtensionMethods/blob/master/System.Collection.Generic/ListExtensions.md)
 
 **Namespace: System.Web**
+- [HttpContextBase](https://github.com/sfvicente/ExtensionMethods/blob/master/System.Web/HttpContextBaseExtensions.md)
 - [HttpContext](https://github.com/sfvicente/ExtensionMethods/blob/master/System.Web/HttpContextExtensions.md)
