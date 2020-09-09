@@ -15,7 +15,7 @@ Retrives the current domain.
 
 ```csharp
 
-    public static string GetDomain(this HttpContext context)
+    public static string GetDomain(this HttpContextBase context)
     {
         return context.Request.Url.GetLeftPart(UriPartial.Authority);
     }
