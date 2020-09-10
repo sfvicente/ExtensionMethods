@@ -221,9 +221,9 @@ Encodes a string to a base 64 representation.
 
     public static string EncodeBase64(this string source)
     {
-        byte[] base64EncodedData = System.Convert.FromBase64String(source);
-
-        return System.Text.Encoding.UTF8.GetString(base64EncodedData);
+        byte[] encodedBase64Data = System.Text.Encoding.UTF8.GetBytes(source);
+  
+        return System.Convert.ToBase64String(encodedBase64Data);
     }
 
 ```
