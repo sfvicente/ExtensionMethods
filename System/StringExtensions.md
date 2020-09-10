@@ -197,10 +197,15 @@ Dependencies:
 
     public static void Main()
     {
-    	string base64EncodedText = "SGVsbG8gV29ybGQh";
-        string base64DecodedText = base64EncodedText.DecodeBase64();
+    	string base64EncodedData = "SGVsbG8gV29ybGQh";
+        string base64DecodedData = base64EncodedText.DecodeBase64();
 	    
-        Console.WriteLine(decodeBase64);
+        Console.WriteLine("The base 64 decoded data: ");
+        Console.WriteLine("    {0}\n", base64DecodedData);
+
+        // The example displays the following output:
+        //     The base 64 decoded data:
+        //         Hello World!
     }
 
 ```
