@@ -181,7 +181,9 @@ Decodes a base 64 string.
 
     public static string DecodeBase64(this string source)
     {
-        return Encoding.ASCII.GetString(Convert.FromBase64String(source));
+        byte[] base64EncodedData = System.Convert.FromBase64String(source);
+
+        return System.Text.Encoding.UTF8.GetString(base64EncodedData);
     }
 
 ```
