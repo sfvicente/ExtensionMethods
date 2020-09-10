@@ -202,3 +202,43 @@ Dependencies:
     }
 
 ```
+
+
+## EncodeBase64()
+
+Encodes a string to a base 64 representation.
+
+### Source
+
+```csharp
+
+    public static string EncodeBase64(this string source)
+    {
+        byte[] base64EncodedData = System.Convert.FromBase64String(source);
+
+        return System.Text.Encoding.UTF8.GetString(base64EncodedData);
+    }
+
+```
+
+Dependencies:
+    `System.Text` for the `Encoding` class
+
+### Usage
+
+```csharp
+
+    public static void Main()
+    {
+    	string text = "Hello World!";
+        string base64EncodedText = text.EncodeBase64();
+	    
+        Console.WriteLine("The base 64 encoded text: ");
+        Console.WriteLine("    {0}\n", encodedBase64);
+    }
+
+    // The example displays the following output:
+    //     The base 64 encoded text:
+    //         SGVsbG8gV29ybGQh
+
+```
