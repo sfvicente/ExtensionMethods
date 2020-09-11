@@ -332,3 +332,45 @@ Dependencies:
 
 
 ```
+
+
+## ToTitleCase()
+
+Capitalizes first letter of each word, except for certain small words, such as articles and short prepositions.
+
+### Source
+
+```csharp
+
+    public static string ToProperCase(this string text)
+    {
+        System.Globalization.CultureInfo cultureInfo = System.Threading.Thread.CurrentThread.CurrentCulture;
+        System.Globalization.TextInfo textInfo = cultureInfo.TextInfo;
+        return textInfo.ToTitleCase(text);
+    }
+
+```
+
+Dependencies:
+    `System.Threading` for the `Thread` class.
+    `System.Globalization` for the `CultureInfo` and `TextInfo` classes.
+
+### Usage
+
+```csharp
+
+    public static void Main()
+    {
+        // ToDo: code sample.
+    }
+
+
+```
+
+
+
+
+
+
+
+
