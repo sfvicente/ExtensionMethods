@@ -302,3 +302,33 @@ References:
 
 ```
 
+
+## ParseQuery()
+
+.
+
+### Source
+
+```csharp
+
+    public static NameValueCollection ParseQueryString(this string source)
+    {
+        return HttpUtility.ParseQueryString(source);
+    }
+
+```
+
+Dependencies:
+    `System.Web` for the `HttpUtility` class.
+
+### Usage
+
+```csharp
+
+    public static void Main()
+    {
+        // ToDo: code sample.
+    }
+
+
+```
