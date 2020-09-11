@@ -249,3 +249,56 @@ Dependencies:
     //         SGVsbG8gV29ybGQh
 
 ```
+
+
+
+
+
+## Capitalize()
+
+Converts the first letter of a string to upper case.
+
+### Source
+
+```csharp
+
+    public static string CapitalizeFirstLetter(this String source)
+    {
+        if(string.IsNullOrEmpty(source))
+        {
+            return input;
+		}     
+
+        return input.Substring(0, 1).ToUpper(CultureInfo.CurrentCulture) + input.Substring(1, input.Length - 1);
+    }
+
+```
+
+Dependencies:
+    `System.Text` for the `Encoding` class
+
+Notes:
+    The method assumes that the first letter is the correct one that needs to change. It is therefore, not culture-safe.
+
+References:
+    https://stackoverflow.com/questions/748411/is-there-a-capitalizefirstletter-method
+
+### Usage
+
+```csharp
+
+    public static void Main()
+    {
+    	string text = "hello world!";
+        string capitalizedText = text.Capitalize();
+	    
+        Console.WriteLine("The capitalized text: ");
+        Console.WriteLine("    {0}\n", capitalizedText);
+    }
+
+    // The example displays the following output:
+    //     The base 64 encoded text:
+    //         Hello world!
+
+```
+
