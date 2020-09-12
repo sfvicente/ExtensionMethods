@@ -406,9 +406,42 @@ Obtains a string containing the specified number of characters from the left sid
 ```
 
 
+## Right()
+
+Obtains a string containing a specified number of characters from the right side of a string.
+
+### Source
+
+```csharp
+
+    public static string Right(this string source, int length)
+    {
+        if (string.IsNullOrEmpty(source) || length < 0)
+        {
+            return null;
+        }
+
+        if(length > source.Length)
+        {
+            length = source.Length;  
+		}
+
+        return source.Substring(source.Length - length, length);
+    }
+
+```
+
+### Usage
+
+```csharp
+
+    public static void Main()
+    {
+        // ToDo: code sample.
+    }
 
 
-
+```
 
 
 
