@@ -368,6 +368,45 @@ Dependencies:
 ```
 
 
+## Left()
+
+Obtains a string containing the specified number of characters from the left side of a string.
+
+### Source
+
+```csharp
+
+    public static string Left(this string source, int length)
+    {
+        if (string.IsNullOrEmpty(source))
+        {
+            return null;
+        }
+
+        if(length > source.Length)
+        {
+            length = source.Length;  
+		}
+
+        return source.Substring(0, length);
+    }
+
+```
+
+### Usage
+
+```csharp
+
+    public static void Main()
+    {
+        // ToDo: code sample.
+    }
+
+
+```
+
+
+
 
 
 
