@@ -444,5 +444,42 @@ Obtains a string containing a specified number of characters from the right side
 ```
 
 
+## Mid()
+
+Obtains a string containing a specified number of characters from a string.
+
+### Source
+
+```csharp
+
+    public static string Mid(this string source, int start, int length)
+    {
+        if (string.IsNullOrEmpty(source) || start < 0 || length < 0)
+        {
+            return null;
+        }
+
+        if(start + length > source.Length)
+        {
+            length = source.Length - start;  
+		}
+
+        return source.Substring(start, length);
+    }
+
+```
+
+### Usage
+
+```csharp
+
+    public static void Main()
+    {
+        // ToDo: code sample.
+    }
+
+
+```
+
 
 
