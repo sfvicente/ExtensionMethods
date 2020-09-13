@@ -36,3 +36,39 @@ Converts an object to a specific type. If unable to perform the conversion, retu
 TODO: code samples
 
 ```
+
+
+## ToJson()
+
+Serializes an object to a string containing its JSON representation.
+
+### Source
+
+```csharp
+
+    public static string ToJson(this object source) {
+    {
+        return JsonSerializer.Serialize(source);
+    }
+
+```
+
+Dependencies:
+    `System.Text.Json` for the `JsonSerializer` class.
+        
+### Usage
+
+    public static void Main()
+    {
+        ...
+        string serializedData = obj.ToJson();
+	    
+        Console.WriteLine("The object serialized to JSON: ");
+        Console.WriteLine("    {0}\n", leftText);
+    }
+
+    // The example displays the following output:
+    //     The object serialized to JSON: 
+    //         ...
+
+
