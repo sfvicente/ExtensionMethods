@@ -489,4 +489,37 @@ Obtains a string containing a specified number of characters from a string.
 ```
 
 
+## FromJson()
 
+Deserializes an object from a string containing its JSON representation.
+
+### Source
+
+```csharp
+
+    public static T FromJson<T>(this string source)
+    {
+        T t = JsonSerializer.Deserialize<T>(source);
+
+        return t;
+    }
+
+```
+
+Dependencies:
+    `System.Text.Json` for the `JsonSerializer` class.
+        
+### Usage
+
+    public static void Main()
+    {
+        ...
+        string deserializedData = data.FromJson();
+	    
+        Console.WriteLine("The object deserialized from JSON: ");
+        Console.WriteLine("    {0}\n", );
+    }
+
+    // The example displays the following output:
+    //     The object deserialized from JSON: 
+    //         ...
