@@ -399,9 +399,16 @@ Obtains a string containing the specified number of characters from the left sid
 
     public static void Main()
     {
-        // ToDo: code sample.
+    	string text = "Hello world!";
+        string leftText = text.Left(5);
+	    
+        Console.WriteLine("The left part of the text: ");
+        Console.WriteLine("    {0}\n", leftText);
     }
 
+    // The example displays the following output:
+    //     The left part of the text:
+    //         Hello
 
 ```
 
