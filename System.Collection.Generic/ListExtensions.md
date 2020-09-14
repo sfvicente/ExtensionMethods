@@ -31,3 +31,39 @@ TODO: code samples
 
 ```
 
+
+## IsNotIn()
+
+Verifies if an element is not within a list.
+
+### Source
+
+```csharp
+
+	public static bool IsNotIn<T>(this T source, params T[] list)
+	{
+		if(null == source)
+		{
+			throw new ArgumentNullException("source");
+		}
+	  
+		return !list.Contains(source);
+	}
+
+```
+
+### Usage
+
+    public static void Main()
+    {
+        ...
+        bool result = number.IsNotIn(list);
+	    
+        Console.WriteLine("Is the element not within the list? ");
+        Console.WriteLine("    {0}\n", );
+    }
+
+    // The example displays the following output:
+    //     Is the element not within the list? 
+    //         ...
+
