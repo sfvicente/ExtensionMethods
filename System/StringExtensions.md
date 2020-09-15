@@ -7,6 +7,46 @@ The `String` class is a sequential collection of characters that is used to repr
 <br>
 
 
+## ToByteArray()
+
+Encodes a set of characters into a sequence of bytes.
+
+### Source
+
+```csharp
+
+public static byte[] ToByteArray(this string source) 
+{
+    return System.Text.Encoding.Unicode.GetBytes(text);
+}
+
+```
+
+Dependencies:
+    `System.Text` for the `Encoding` class.
+
+### Usage
+
+```csharp
+
+    public static void Main()
+    {
+    	string text = "Hello World!";
+        byte[] arr = text.ToByteArray();
+	    
+        Console.WriteLine("The text as a sequence of bytes: ");
+        Console.WriteLine("    {0}\n", arr);
+    }
+
+    // The example displays the following output:
+    //     The text as a sequence of bytes:
+    //         ...
+
+```
+
+
+
+
 ## ToSlug()
 
 ```csharp
