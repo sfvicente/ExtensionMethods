@@ -11,6 +11,7 @@ A repository of useful extension methods in C# with annotations to promote code 
 - [Environment](https://github.com/sfvicente/ExtensionMethods/blob/master/System/EnvironmentExtensions.md)
 - [Object](https://github.com/sfvicente/ExtensionMethods/blob/master/System/ObjectExtensions.md)
 - [long](https://github.com/sfvicente/ExtensionMethods/blob/master/System/LongExtensions.md)
+- [Random](https://github.com/sfvicente/ExtensionMethods/blob/master/System/RandomExtensions.md)
 - [String](https://github.com/sfvicente/ExtensionMethods/blob/master/System/StringExtensions.md)
 
 **Namespace: System.Collection.Generic**
