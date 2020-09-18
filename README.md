@@ -19,6 +19,9 @@ A repository of useful extension methods in C# with annotations to promote code 
 - [IEnumerable<T>](https://github.com/sfvicente/ExtensionMethods/blob/master/System.Collection.Generic/IEnumerableExtensions.md)
 - [List](https://github.com/sfvicente/ExtensionMethods/blob/master/System.Collection.Generic/ListExtensions.md)
 
+**Namespace: System.Data**
+- [SqlCommand](https://github.com/sfvicente/ExtensionMethods/blob/master/System.Web/IDataReaderExtensions.md)
+
 **Namespace: System.Data.SqlClient**
 - [SqlCommand](https://github.com/sfvicente/ExtensionMethods/blob/master/System.Web/SqlCommandExtensions.md)
 
