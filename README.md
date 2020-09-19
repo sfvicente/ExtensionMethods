@@ -26,6 +26,7 @@ A repository of useful extension methods in C# with annotations to promote code 
 - [SqlCommand](https://github.com/sfvicente/ExtensionMethods/blob/master/System.Web/SqlCommandExtensions.md)
 
 **Namespace: System.Net**
+- [WebClient](https://github.com/sfvicente/ExtensionMethods/blob/master/System.Web/WebClientExtensions.md)
 - [WebRequest](https://github.com/sfvicente/ExtensionMethods/blob/master/System.Web/WebRequestExtensions.md)
 
 **Namespace: System.IO**
